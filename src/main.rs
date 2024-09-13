@@ -8,7 +8,21 @@ struct Deck {
 impl Deck {
     fn new() -> Deck {
         let suits = ["Hearts", "Clubs", "Spades", "Diamonds"];
-        let values = ["Ace", "Two", "Three"];
+        let values = [
+            "Ace",
+            "Two",
+            "Three",
+            "Four",
+            "Five",
+            "Six",
+            "Seven",
+            "Eight",
+            "Nine",
+            "Ten",
+            "Jack",
+            "Queen",
+            "King"
+        ];
 
         let mut cards = vec![];
 
